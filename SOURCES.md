@@ -1,0 +1,12 @@
+# Sources
+
+| Skill | Source | Licence | Local changes |
+| --- | --- | --- | --- |
+| blueprint | Written by the author. `assets/svg` holds AWS Architecture Icons (service icons at 48 px and group icons, releases named in `assets/svg/catalog.json`); the layout engine (elkjs) and the fonts are npm dependencies and are not committed. | Code: MIT. Icons: AWS's terms for the Architecture Icons apply; no licence is asserted for them here. | — |
+| code-validation | Written by the author | MIT | — |
+| qa-only | Written by the author, inspired by [garrytan/gstack](https://github.com/garrytan/gstack/blob/main/qa-only/SKILL.md) report-only QA; no gstack code or runtime | MIT | — |
+| tdd, diagnosing-bugs, prototype | [mattpocock/skills](https://github.com/mattpocock/skills), installed copies captured 2026-10-14 (the exact commit of the installed copy is unknown; the licence was read at `49dd158d1076134a641b33efb035946536778336`) | MIT, in each folder | tdd picks existing public test boundaries without a mandatory approval interview, confirms ambiguous behaviour and contract changes when needed, and allows small refactoring after tests pass. prototype may use a backend script, keeps a minimal check and data-safety limits, and does not create branches or publish issues on its own. diagnosing-bugs is as installed. |
+| interview-me | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills/blob/main/skills/interview-me/SKILL.md), read 2026-10-15 | MIT, in its folder | Rewritten as a short product conversation: one question at a time, a bounded number of questions, assumptions kept apart from requirements, no confidence score or specification required before work starts. |
+| doubt-driven-development | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) `aeac41d4d005999432bb7312f7ff06383a91d59d` | MIT, in its folder | One bounded independent review per claim, at most three cycles; repeated cross-provider prompts and upstream persona dependencies removed. |
+| ponytail | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) 5.2.0 | MIT, in its folder | The skill only; the plugin's automatic activation hooks and audit commands are not included, so invoke it explicitly. |
+| asd-ste100 | [danyuchn/asd-ste100-skill](https://github.com/danyuchn/asd-ste100-skill) `3944283c183eea13fe5bd902b572da3b4de8bf44` | MIT, in its folder | Frontmatter made portable across hosts. ASD's licensed dictionary is not included; the linter checks structure and does not certify compliance. |

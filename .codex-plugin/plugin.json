@@ -1,0 +1,9 @@
+{
+  "name": "agent-dev-skills",
+  "version": "0.1.0",
+  "description": "Skills for coding agents in everyday software work: evidence-backed architecture pages, report-only review and QA, and the test-first, debugging, prototyping and product-interview skills I use beside them.",
+  "author": {
+    "name": "Rasmus Hilmersson"
+  },
+  "skills": "./skills/"
+}
